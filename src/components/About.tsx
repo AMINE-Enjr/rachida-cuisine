@@ -8,8 +8,8 @@ export function About() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2">
         <div className="relative h-80 overflow-hidden rounded-3xl border border-stone-200/80 shadow-lg">
           <FoodImage
-            src="https://images.unsplash.com/photo-1556910103-1c0279aa1ff0?auto=format&fit=crop&w=1400&q=80"
-            alt="مطبخ دافئ يحضّر فيه الطعام بعناية"
+            src="/dishes/Pastilla.jpeg"
+            alt="بسطيلة ملكية محضّرة بعناية في رشيدة كويزين"
             sizes="(min-width: 1024px) 50vw, 100vw"
           />
         </div>

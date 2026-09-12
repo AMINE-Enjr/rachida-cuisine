@@ -1,5 +1,6 @@
 import { Clock, MapPin, Phone } from "lucide-react";
 import { InstagramIcon } from "@/components/InstagramIcon";
+import { BrandLogo } from "@/components/BrandLogo";
 import {
   CONTACT_MESSAGE,
   INSTAGRAM_HANDLE,
@@ -13,8 +14,13 @@ export function Footer() {
       <div className="zellige-line opacity-40" />
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
         <div>
-          <h2 className="font-display text-2xl font-bold">رشيدة كويزين</h2>
-          <p className="mt-1 text-sm text-gold">Rachida Cuisine</p>
+          <div className="mb-4 flex items-center gap-3">
+            <BrandLogo size={56} className="size-14 border border-white/10" />
+            <div>
+              <h2 className="font-display text-2xl font-bold">رشيدة كويزين</h2>
+              <p className="mt-0.5 text-sm text-gold">Rachida Cuisine</p>
+            </div>
+          </div>
           <p className="mt-4 leading-7 text-stone-300">
             شهيوات الدار بأكادير. طبخ نقي، طلب مسبق، وتوصيل أو استلام حسب الاتفاق.
           </p>

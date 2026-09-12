@@ -20,9 +20,8 @@ export const MENU_ITEMS: MenuItem[] = [
       "بسطيلة فاخرة بالدجاج واللوز البلدي، أو بفواكه البحر للضيافات والمناسبات الكبرى. ورقة مقرمشة وحشوة معتبرة كتستاهل الضيافة.",
     notice: "قبل 48-72 ساعة",
     category: "occasions",
-    image:
-      "https://images.unsplash.com/photo-1544025162-d766403e9010?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "طبق مناسبات فاخر يقدم على المائدة",
+    image: "/dishes/Pastilla2.jpeg",
+    imageAlt: "بسطيلة ملكية بفواكه البحر من رشيدة كويزين",
   },
   {
     id: "djaj-mhamar",
@@ -32,9 +31,8 @@ export const MENU_ITEMS: MenuItem[] = [
       "دجاج محمر مدغمر بالزيتون والحامض مصير، كيحمر الوجه وكيجي بطعم الدار الأصيل. مثالي للعزائم وعطلة الجمعة.",
     notice: "قبل 24-48 ساعة",
     category: "occasions",
-    image:
-      "https://images.unsplash.com/photo-1598103442097-8b7047369082?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "دجاج محمر طازج جاهز للتقديم",
+    image: "/dishes/main.jpeg",
+    imageAlt: "ضيافة ومناسبات من رشيدة كويزين",
   },
   {
     id: "chabakia",
@@ -44,9 +42,8 @@ export const MENU_ITEMS: MenuItem[] = [
       "شباكية مجعبة وشاربة العسل واللوز، مقرمشة ومحضرة بضمير. للحلا والقهوة، رمضان، والمناسبات الحلوة.",
     notice: "قبل 24-48 ساعة",
     category: "traditional",
-    image:
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "حلويات عسلية تقليدية",
+    image: "/dishes/chabakia.jpg",
+    imageAlt: "شباكية فاسلية بلدية من رشيدة كويزين",
   },
   {
     id: "msemen-beghrir",
@@ -56,9 +53,8 @@ export const MENU_ITEMS: MenuItem[] = [
       "مسمن مورق وخفيف بالزبدة البلدية، وبغرير اسفنجي للعسل والزبدة. للكوتي، الفطور، والطلبات ديال الصباح.",
     notice: "قبل 24 ساعة",
     category: "traditional",
-    image:
-      "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "فطائر ذهبية طازجة للفطور",
+    image: "/dishes/Msemen.jpg",
+    imageAlt: "مسمن الدار مع العسل البلدي",
   },
   {
     id: "pizza-sales",

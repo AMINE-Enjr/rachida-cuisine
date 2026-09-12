@@ -6,28 +6,28 @@ import { FoodImage } from "@/components/FoodImage";
 
 const PHOTOS = [
   {
-    src: "https://images.unsplash.com/photo-1544025162-d766403e9010?auto=format&fit=crop&w=800&q=80",
-    alt: "طبق لحم مشوي للمناسبات",
+    src: "/dishes/Pastilla.jpeg",
+    alt: "بسطيلة ملكية بفواكه البحر",
   },
   {
-    src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80",
-    alt: "حلويات ومملحات ذهبية",
+    src: "/dishes/chabakia.jpg",
+    alt: "شباكية فاسلية بلدية",
   },
   {
-    src: "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=800&q=80",
-    alt: "مائدة ضيافة أنيقة",
+    src: "/dishes/Msemen.jpg",
+    alt: "مسمن الدار مع العسل",
   },
   {
-    src: "https://images.unsplash.com/photo-1482049016687-2d3e1b311543?auto=format&fit=crop&w=800&q=80",
-    alt: "تحضير طازج في المطبخ",
+    src: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+    alt: "بيتزا ومملحات للبوفيه",
   },
   {
-    src: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    alt: "تقديم راقي للبوفيه",
+    src: "/dishes/main.jpeg",
+    alt: "بوفيه ضيافة أنيق",
   },
   {
-    src: "https://images.unsplash.com/photo-1498837164418-9b03bca3c01d?auto=format&fit=crop&w=800&q=80",
-    alt: "خضرة طازجة مختارة بعناية",
+    src: "/dishes/Pastilla.jpeg",
+    alt: "تقديم راقي للمناسبات",
   },
 ];
 

@@ -1,8 +1,9 @@
 "use client";
 
 import { INSTAGRAM_URL, GENERAL_ORDER_MESSAGE, whatsappLink } from "@/lib/whatsapp";
-import { ChefHat, Menu, MessageCircle, X } from "lucide-react";
+import { Menu, MessageCircle, X } from "lucide-react";
 import { InstagramIcon } from "@/components/InstagramIcon";
+import { BrandLogo } from "@/components/BrandLogo";
 import { useId, useState } from "react";
 
 const NAV_LINKS = [
@@ -20,9 +21,11 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-stone-200/80 bg-[#FDFBF7]/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
         <a href="#home" className="flex min-w-0 items-center gap-2">
-          <span className="hidden size-10 shrink-0 items-center justify-center rounded-full bg-terracotta text-white shadow-sm sm:inline-flex">
-            <ChefHat className="size-5" aria-hidden />
-          </span>
+          <BrandLogo
+            className="size-10 shrink-0 border border-stone-200 shadow-sm sm:size-11"
+            size={44}
+            priority
+          />
           <span>
             <p className="truncate font-display text-lg font-bold text-terracotta sm:text-xl">
               Rachida Cuisine | رشيدة كويزين

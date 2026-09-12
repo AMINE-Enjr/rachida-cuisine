@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: "Rachida Cuisine | رشيدة كويزين — أكل بيتي بأكادير",
   description:
     "شهيوات الدار الأصيلة بأكادير: بسطيلة، دجاج محمر، شباكية، مسمن ومملحات. طلب مسبق من 24 حتى 72 ساعة. حي السلام والنواحي.",
+  icons: {
+    icon: "/dishes/logo.png",
+    apple: "/dishes/logo.png",
+  },
   keywords: [
     "رشيدة كويزين",
     "Rachida Cuisine",

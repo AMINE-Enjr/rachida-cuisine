@@ -54,8 +54,8 @@ export function Hero() {
         <div className="relative">
           <div className="relative h-72 overflow-hidden rounded-3xl border border-stone-200/80 shadow-xl shadow-stone-900/10 sm:h-96">
             <FoodImage
-              src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1400&q=80"
-              alt="مائدة مغربية دافئة بضيافة البيت"
+              src="/dishes/main.jpeg"
+              alt="بوفيه ضيافة من رشيدة كويزين بأكادير"
               sizes="(min-width: 1024px) 50vw, 100vw"
               priority
             />
